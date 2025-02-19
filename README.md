@@ -1,13 +1,13 @@
-# Olist E-commerce Dashboard
+# 📊Olist E-commerce Dashboard
 
-https://app.powerbi.com/reportEmbed?reportId=78122f6d-9d6e-4265-9ad6-0026c9aaadb8&autoAuth=true&ctid=8985f9b5-679c-4a39-8db6-854329895dac
+🔗 https://app.powerbi.com/reportEmbed?reportId=78122f6d-9d6e-4265-9ad6-0026c9aaadb8&autoAuth=true&ctid=8985f9b5-679c-4a39-8db6-854329895dac
 
-## Project Overview
+## 💠Project Overview
 
 The Olist E-commerce Dashboard aims to provide an in-depth analysis of e-commerce data using MS SQL Server for data management and Power BI for visualization. 
 This project covers the end-to-end data pipeline from raw dataset exploration to business insights through interactive reports.
 
-## Objectives
+## 🎯Objectives
 
 The primary objectives of this project include:
 
@@ -33,7 +33,7 @@ The primary objectives of this project include:
 
 * Ensure real-time interactivity with Power BI’s drill-through and filter functionalities.
 
-## Dataset Overview
+## 📑Dataset Overview
 
 The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced from Kaggle.
 
@@ -75,7 +75,7 @@ The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced f
 
 `geolocation_zip_code_prefix`, `geolocation_lat`, `geolocation_lng`, `geolocation_city`, `geolocation_state`
 
-## Roadmap & Implementation Phases
+## 🗺️Roadmap & Implementation Phases
 
 ### Phase 1: Data Preparation
 
@@ -137,19 +137,17 @@ The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced f
 
 * Present the final Power BI Dashboard to stakeholders.
 
-## Dashboard Features
+## 📈Dashboard Features
 
 **Revenue Breakdown:** Monthly and category-wise sales analysis.
 
-**Customer Segmentation:** Behavior-based categorization.
+**Customer Segmentation, Churn Status & CLV:** Behavior-based categorization, lifetime value.
 
 **Order Fulfillment Analysis:** Delivery time performance.
 
-**Review Sentiment Analysis:** Customer feedback insights.
+**Sales & Marketing Effectiveness:** Top cross-sales products, weekday & weekend preference.
 
-**Sales & Marketing Effectiveness:** Conversion rate tracking.
-
-## Technologies Used
+## 🔧Technologies Used
 
 **Database:** Microsoft SQL Server*
 
@@ -159,7 +157,7 @@ The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced f
 
 **Scripting & Automation:** DAX, Stored Procedures, Triggers*
 
-## How to Use
+## ℹ️How to Use
 
 * Open Power BI Report.
 
@@ -169,6 +167,8 @@ The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced f
 
 * Utilize the interactive map for location-based insights.
 
-## Conclusion
+## 💠Conclusion
 
-This project offers a comprehensive approach to analyzing e-commerce transactions. By leveraging SQL Server for data management and Power BI for visualization, I gain valuable business insights that drive decision-making and strategy development.
+This project offers a comprehensive approach to analyzing e-commerce transactions. 
+
+By leveraging SQL Server for data management and Power BI for visualization, I gain valuable business insights that drive decision-making and strategy development.
