@@ -143,7 +143,7 @@ The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced f
 
 * Create a presentation-ready report summarizing key insights.
 
-* Present the final Power BI Dashboard to stakeholders.
+* Present the final Power BI Dashboard.
 
 ## 📈Dashboard Features
 
