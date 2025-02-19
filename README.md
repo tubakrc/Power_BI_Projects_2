@@ -111,13 +111,15 @@ The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced f
 
 ### Phase 5: Business Insights
 
-* Revenue Analysis: Identify revenue trends and high-performing products.
+* **Revenue Analysis:** Identify revenue trends and high-performing products & customers.
 
-* Customer Segmentation: Categorize customers based on behavior and purchase history.
+* **Customer Segmentation:** Categorize customers based on behavior and purchase history.
 
-* Logistics Insights: Assess delivery performance and optimize shipping strategies.
+* **Logistics Insights:** Assess delivery performance by region and optimize shipping strategies.
 
-* Marketing Insights: Evaluate customer feedback and promotional effectiveness.
+* **Marketing Insights:** Evaluate customer preferences and rearrange marketing strategies.
+
+* **Predictions:** Predict monthly sales, calculate YOY Growth and quarterly moving averages.
 
 ### Phase 6: Power BI Integration
 
@@ -141,9 +143,9 @@ The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced f
 
 **Revenue Breakdown:** Monthly and category-wise sales analysis.
 
-**Customer Segmentation, Churn Status & CLV:** Behavior-based categorization, lifetime value.
+**Customer Segmentation, Churn Status & CLV:** Behavior-based categorization, churn status and lifetime value.
 
-**Order Fulfillment Analysis:** Delivery time performance.
+**Order Fulfillment Analysis:** Delivery time performance by region and seller.
 
 **Sales & Marketing Effectiveness:** Top cross-sales products, weekday & weekend preference.
 
