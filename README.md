@@ -8,13 +8,14 @@ This project covers the end-to-end data pipeline from raw dataset exploration to
 ## Objectives
 
 The primary objectives of this project include:
-1. Database Creation & Querying:
+
+* 1. Database Creation & Querying:
 
 * Store and manage e-commerce datasets efficiently in MSSQL Server.
 
 * Write SQL queries and views to extract meaningful insights.
 
-2. Advanced Data Analytics & Optimization:
+* 2. Advanced Data Analytics & Optimization:
 
 * Perform data cleaning, indexing, and optimization to enhance query performance.
 
