@@ -7,6 +7,8 @@
 The Olist E-commerce Dashboard aims to provide an in-depth analysis of e-commerce data using MS SQL Server for data management and Power BI for visualization. 
 This project covers the end-to-end data pipeline from raw dataset exploration to business insights through interactive reports.
 
+![image](https://github.com/user-attachments/assets/80d49f4b-30ff-4edc-9681-870f7362ccf0)
+
 ## 🎯Objectives
 
 The primary objectives of this project include:
@@ -123,7 +125,7 @@ The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced f
 
 * **Marketing Insights:** Evaluate customer preferences and rearrange marketing strategies.
 
-* **Predictions:** Predict monthly sales, calculate YOY Growth and quarterly moving averages.
+* **Predictions:** Predict monthly sales (Linear Growth Model), calculate YOY Growth and quarterly moving averages.
 
 ### Phase 6: Power BI Integration
 
