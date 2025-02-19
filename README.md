@@ -1,5 +1,7 @@
 # Olist E-commerce Dashboard
 
+https://app.powerbi.com/reportEmbed?reportId=78122f6d-9d6e-4265-9ad6-0026c9aaadb8&autoAuth=true&ctid=8985f9b5-679c-4a39-8db6-854329895dac
+
 ## Project Overview
 
 The Olist E-commerce Dashboard aims to provide an in-depth analysis of e-commerce data using MS SQL Server for data management and Power BI for visualization. 
@@ -43,35 +45,35 @@ The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced f
 
 ### 1. Orders Dataset (olist_orders_dataset)
 
-'order_id', 'customer_id', 'order_status', 'order_purchase_timestamp', order_delivered_customer_date, order_estimated_delivery_date
+`order_id`, `customer_id`, `order_status`, `order_purchase_timestamp`, `order_delivered_customer_date`, `order_estimated_delivery_date`
 
 ### 2. Products Dataset (olist_products_dataset)
 
-product_id, product_category_name, product_weight_g, product_length_cm, product_height_cm, product_width_cm
+`product_id`, `product_category_name`, `product_weight_g`, `product_length_cm`, `product_height_cm`, `product_width_cm`
 
 ### 3. Sellers Dataset (olist_sellers_dataset)
 
-seller_id, seller_city, seller_state
+`seller_id`, `seller_city`, `seller_state`
 
 ### 4. Order Items Dataset (olist_order_items_dataset)
 
-order_id, product_id, seller_id, shipping_limit_date, price, freight_value
+`order_id`, `product_id`, `seller_id`, `shipping_limit_date`, `price`, `freight_value`
 
 ### 5. Order Payments Dataset (olist_order_payments_dataset)
 
-order_id, payment_type, payment_installments, payment_value
+`order_id`, `payment_type`, `payment_installments`, `payment_value`
 
 ### 6. Order Reviews Dataset (olist_order_reviews_dataset)
 
-review_id, order_id, review_score, review_comment_message, review_creation_date
+`review_id`, `order_id`, `review_score`, `review_comment_message`, `review_creation_date`
 
 ### 7. Customers Dataset (olist_customers_dataset)
 
-customer_id, customer_unique_id, customer_city, customer_state
+`customer_id`, `customer_unique_id`, `customer_city`, `customer_state`
 
 ### 8. Geolocation Dataset (olist_geolocation_dataset)
 
-geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city, geolocation_state
+`geolocation_zip_code_prefix`, `geolocation_lat`, `geolocation_lng`, `geolocation_city`, `geolocation_state`
 
 ## Roadmap & Implementation Phases
 
@@ -79,7 +81,7 @@ geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city,
 
 * Understand the dataset structure and relationships.
 
-* Set up MSSQL Server and import data.
+* Set up MS SQL Server and import data.
 
 * Perform data cleaning and handle missing values.
 
