@@ -157,13 +157,13 @@ The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced f
 
 ## 🔧Technologies Used
 
-**Database:** Microsoft SQL Server*
+**Database:** Microsoft SQL Server
 
-**Query Language:** SQL (T-SQL)*
+**Query Language:** SQL (T-SQL)
 
-**Visualization:** Microsoft Power BI*
+**Visualization:** Microsoft Power BI
 
-**Scripting & Automation:** DAX, Stored Procedures, Triggers*
+**Scripting & Automation:** DAX, Stored Procedures, Triggers
 
 ## ℹ️How to Use
 
