@@ -171,7 +171,7 @@ The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced f
 
 * Use filters & slicers to customize views.
 
-* Click on help icons for dataset definitions.
+* Click on help icons for information and directions.
 
 * Utilize the interactive map for location-based insights.
 
