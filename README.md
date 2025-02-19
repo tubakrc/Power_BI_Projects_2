@@ -9,23 +9,23 @@ This project covers the end-to-end data pipeline from raw dataset exploration to
 
 The primary objectives of this project include:
 
-* 1. Database Creation & Querying:
+### 1. Database Creation & Querying:
 
 * Store and manage e-commerce datasets efficiently in MSSQL Server.
 
 * Write SQL queries and views to extract meaningful insights.
 
-* 2. Advanced Data Analytics & Optimization:
+### 2. Advanced Data Analytics & Optimization:
 
 * Perform data cleaning, indexing, and optimization to enhance query performance.
 
 * Implement advanced SQL techniques such as aggregations, window functions, and subqueries.
 
-3. Business Insights & Decision Support:
+### 3. Business Insights & Decision Support:
 
 * Analyze key business metrics such as revenue trends, customer segmentation, logistics efficiency, and marketing performance.
 
-4. Interactive Dashboard Development in Power BI:
+### 4. Interactive Dashboard Development in Power BI:
 
 * Design a clean, insightful dashboard using DAX calculations, relationships, and custom visualizations.
 
@@ -41,41 +41,41 @@ Access: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data
 
 ### Key Datasets & Attributes
 
-1. Orders Dataset (olist_orders_dataset)
+### 1. Orders Dataset (olist_orders_dataset)
 
 order_id, customer_id, order_status, order_purchase_timestamp, order_delivered_customer_date, order_estimated_delivery_date
 
-2. Products Dataset (olist_products_dataset)
+### 2. Products Dataset (olist_products_dataset)
 
 product_id, product_category_name, product_weight_g, product_length_cm, product_height_cm, product_width_cm
 
-3. Sellers Dataset (olist_sellers_dataset)
+### 3. Sellers Dataset (olist_sellers_dataset)
 
 seller_id, seller_city, seller_state
 
-4. Order Items Dataset (olist_order_items_dataset)
+### 4. Order Items Dataset (olist_order_items_dataset)
 
 order_id, product_id, seller_id, shipping_limit_date, price, freight_value
 
-5. Order Payments Dataset (olist_order_payments_dataset)
+### 5. Order Payments Dataset (olist_order_payments_dataset)
 
 order_id, payment_type, payment_installments, payment_value
 
-6. Order Reviews Dataset (olist_order_reviews_dataset)
+### 6. Order Reviews Dataset (olist_order_reviews_dataset)
 
 review_id, order_id, review_score, review_comment_message, review_creation_date
 
-7. Customers Dataset (olist_customers_dataset)
+### 7. Customers Dataset (olist_customers_dataset)
 
 customer_id, customer_unique_id, customer_city, customer_state
 
-8. Geolocation Dataset (olist_geolocation_dataset)
+### 8. Geolocation Dataset (olist_geolocation_dataset)
 
 geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city, geolocation_state
 
 ## Roadmap & Implementation Phases
 
-* Phase 1: Data Preparation
+### Phase 1: Data Preparation
 
 * Understand the dataset structure and relationships.
 
@@ -83,7 +83,7 @@ geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city,
 
 * Perform data cleaning and handle missing values.
 
-* Phase 2: Foundational Queries
+### Phase 2: Foundational Queries
 
 * Write basic queries for data exploration.
 
@@ -91,7 +91,7 @@ geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city,
 
 * Apply filtering & sorting techniques.
 
-* Phase 3: Advanced Analysis
+### Phase 3: Advanced Analysis
 
 * Implement aggregations & window functions.
 
@@ -99,7 +99,7 @@ geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city,
 
 * Create SQL Views for reusable data extracts.
 
-* Phase 4: Data Integrity & Optimization
+### Phase 4: Data Integrity & Optimization
 
 * Apply constraints & validation rules.
 
@@ -107,7 +107,7 @@ geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city,
 
 * Automate processes with stored procedures & triggers.
 
-* Phase 5: Business Insights
+### Phase 5: Business Insights
 
 * Revenue Analysis: Identify revenue trends and high-performing products.
 
@@ -117,7 +117,7 @@ geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city,
 
 * Marketing Insights: Evaluate customer feedback and promotional effectiveness.
 
-* Phase 6: Power BI Integration
+### Phase 6: Power BI Integration
 
 * Export cleaned data from SQL Server.
 
@@ -127,7 +127,7 @@ geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city,
 
 * Implement drill-through and filtering options for dynamic reporting.
 
-* Phase 7: Documentation & Presentation
+### Phase 7: Documentation & Presentation
 
 * Document all SQL queries and transformation steps.
 
@@ -137,25 +137,25 @@ geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city,
 
 ## Dashboard Features
 
-* Revenue Breakdown: Monthly and category-wise sales analysis.
+**Revenue Breakdown:** Monthly and category-wise sales analysis.
 
-* Customer Segmentation: Behavior-based categorization.
+**Customer Segmentation:** Behavior-based categorization.
 
-* Order Fulfillment Analysis: Delivery time performance.
+**Order Fulfillment Analysis:** Delivery time performance.
 
-* Review Sentiment Analysis: Customer feedback insights.
+**Review Sentiment Analysis:** Customer feedback insights.
 
-* Sales & Marketing Effectiveness: Conversion rate tracking.
+**Sales & Marketing Effectiveness:** Conversion rate tracking.
 
 ## Technologies Used
 
-*Database: Microsoft SQL Server*
+**Database:** Microsoft SQL Server*
 
-*Query Language: SQL (T-SQL)*
+**Query Language:** SQL (T-SQL)*
 
-*Visualization: Microsoft Power BI*
+**Visualization:** Microsoft Power BI*
 
-*Scripting & Automation: DAX, Stored Procedures, Triggers*
+**Scripting & Automation:** DAX, Stored Procedures, Triggers*
 
 ## How to Use
 
