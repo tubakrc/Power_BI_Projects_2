@@ -41,6 +41,10 @@ The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced f
 
 **Access:** https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data
 
+**Data Schema:** 
+
+![olist_data_schema](https://github.com/user-attachments/assets/122f5fad-51e3-483a-8bb8-e1463ccedef4)
+
 ### Key Datasets & Attributes
 
 ### 1. Orders Dataset (olist_orders_dataset)
