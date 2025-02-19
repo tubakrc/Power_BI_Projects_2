@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The Olist E-commerce Dashboard aims to provide an in-depth analysis of e-commerce data using MSSQL Server for data management and Power BI for visualization. 
+The Olist E-commerce Dashboard aims to provide an in-depth analysis of e-commerce data using MS SQL Server for data management and Power BI for visualization. 
 This project covers the end-to-end data pipeline from raw dataset exploration to business insights through interactive reports.
 
 ## Objectives
@@ -11,7 +11,7 @@ The primary objectives of this project include:
 
 ### 1. Database Creation & Querying:
 
-* Store and manage e-commerce datasets efficiently in MSSQL Server.
+* Store and manage e-commerce datasets efficiently in MS SQL Server.
 
 * Write SQL queries and views to extract meaningful insights.
 
@@ -35,15 +35,15 @@ The primary objectives of this project include:
 
 The project utilizes the Brazilian E-Commerce Public Dataset by Olist, sourced from Kaggle.
 
-*Description:* This dataset contains information on e-commerce transactions, including orders, customers, products, sellers, and geolocation.
+**Description:** This dataset contains information on e-commerce transactions, including orders, customers, products, sellers, and geolocation.
 
-Access: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data
+**Access:** https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data
 
 ### Key Datasets & Attributes
 
 ### 1. Orders Dataset (olist_orders_dataset)
 
-order_id, customer_id, order_status, order_purchase_timestamp, order_delivered_customer_date, order_estimated_delivery_date
+'order_id', 'customer_id', 'order_status', 'order_purchase_timestamp', order_delivered_customer_date, order_estimated_delivery_date
 
 ### 2. Products Dataset (olist_products_dataset)
 
